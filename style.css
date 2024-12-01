@@ -1,0 +1,421 @@
+/* body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+.main_1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#img1 {
+  width: 100%;
+  height: 700px;
+  filter: brightness(40%);
+}
+
+.logo img {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+.main1_2 {
+  position: absolute;
+  top: 250px;
+  left: 25%;
+  right: 25%;
+  color: whitesmoke;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.main1_3 {
+  position: absolute;
+  top: 65%;
+  left: 30%;
+}
+
+.main1_3 input {
+  width: 400px;
+  height: 50px;
+  border: 2px solid silver;
+  border-radius: 25px;
+  background-color: rgba(47, 46, 46, 0.5);
+  color: white;
+  text-align: center;
+}
+
+.main1_3 ::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.main1_3 button {
+  width: 150px;
+  height: 50px;
+  margin: 2px;
+  padding: 2px;
+  border: 2px solid red;
+  border-radius: 25px;
+  background-color: red;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.main1_4 {
+  height: auto;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+.main1_4 select {
+  width: 120px;
+  height: 40px;
+  border: 2px solid silver;
+  border-radius: 25px;
+  background-color: rgba(47, 46, 46, 0.5);
+  color: white;
+  text-align: center;
+}
+
+.main1_4 button {
+  width: 100px;
+  height: 40px;
+  border: 2px;
+  border-radius: 25px;
+  color: rgb(22, 21, 21);
+  background-color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.main2 {
+  background-color: black;
+  height: 200%;
+  color: white;
+  position: relative;
+}
+
+.title {
+   padding: 25px;
+   margin: 0px;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.table-1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid #f10e0e;
+    border-radius: 25px;
+    background-color: rgba(47, 46, 46, 0.5)
+}  
+th,td{
+    padding: 10px;
+    text-align: center;
+}
+#image {
+   width: 250px;
+  height: 50%;
+  top: 40%;
+  margin: 5px;
+  padding: 5px;
+  overflow: hidden;
+}
+#image:hover {
+  transform: scale(1.1);
+}
+
+.main3{
+    position: relative;
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+.main3 button {
+   position: absolute;
+   left: 45%;
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 25px;
+    background-color: red;
+    color: whitesmoke;
+    font-weight: bold;
+  } */
+   /* General Reset and Default Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  /* Main Container */
+  .main_1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  /* Background Image */
+  #img1 {
+    width: 100%;
+    height: 700px;
+    filter: brightness(40%);
+    object-fit: cover;
+  }
+  
+  /* Logo Section */
+  .logo img {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+  }
+  
+  /* Main Content Text */
+  .main1_2 {
+    position: absolute;
+    top: 250px;
+    left: 25%;
+    right: 25%;
+    color: whitesmoke;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  /* Input Section */
+  .main1_3 {
+    position: absolute;
+    top: 65%;
+    left: 30%;
+  }
+  
+  .main1_3 input {
+    width: 400px;
+    height: 50px;
+    border: 2px solid silver;
+    border-radius: 25px;
+    background-color: rgba(47, 46, 46, 0.5);
+    color: white;
+    text-align: center;
+  }
+  
+  .main1_3 ::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .main1_3 button {
+    width: 150px;
+    height: 50px;
+    margin: 2px;
+    padding: 2px;
+    border: 2px solid red;
+    border-radius: 25px;
+    background-color: red;
+    color: whitesmoke;
+    font-weight: bold;
+  }
+  
+  /* Dropdown Section */
+  .main1_4 {
+    height: auto;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+  }
+  
+  .main1_4 select {
+    width: 120px;
+    height: 40px;
+    border: 2px solid silver;
+    border-radius: 25px;
+    background-color: rgba(47, 46, 46, 0.5);
+    color: white;
+    text-align: center;
+  }
+  
+  .main1_4 button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    color: rgb(22, 21, 21);
+    background-color: white;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  /* Section 2 Styling */
+  .main2 {
+    background-color: black;
+    height: 200%;
+    color: white;
+    position: relative;
+  }
+  
+  .title {
+    padding: 25px;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .table-1 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid #f10e0e;
+    border-radius: 25px;
+    background-color: rgba(47, 46, 46, 0.5);
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #image {
+    width: 250px;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+  }
+  
+  #image:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Section 3 Styling */
+  .main3 {
+    position: relative;
+    background-color: black;
+    color: white;
+    height: 100%;
+  }
+  
+  .main3 button {
+    position: absolute;
+    left: 45%;
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 25px;
+    background-color: red;
+    color: whitesmoke;
+    font-weight: bold;
+  }
+  
+  /* Responsive Media Queries */
+  @media (max-width: 1024px) {
+    #img1 {
+      height: 500px;
+    }
+  
+    .logo img {
+      width: 15%;
+      left: 20px;
+    }
+  
+    .main1_2 {
+      top: 200px;
+      left: 20%;
+      right: 20%;
+    }
+  
+    .main1_3 input {
+      width: 300px;
+    }
+  
+    .main1_3 button {
+      width: 120px;
+    }
+  
+    .main1_4 select {
+      width: 100px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #img1 {
+      height: 400px;
+    }
+  
+    .logo img {
+      width: 20%;
+    }
+  
+    .main1_2 {
+      top: 150px;
+      left: 15%;
+      right: 15%;
+    }
+  
+    .main1_3 input {
+      width: 250px;
+      height: 40px;
+    }
+  
+    .main1_3 button {
+      width: 100px;
+      height: 40px;
+    }
+  
+    .main1_4 select {
+      width: 90px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #img1 {
+      height: 300px;
+    }
+  
+    .logo img {
+      width: 25%;
+    }
+  
+    .main1_2 {
+      top: 100px;
+      left: 10%;
+      right: 10%;
+    }
+  
+    .main1_3 input {
+      width: 200px;
+      height: 35px;
+    }
+  
+    .main1_3 button {
+      width: 90px;
+      height: 35px;
+    }
+  
+    .main1_4 select {
+      width: 80px;
+    }
+  
+    .main3 button {
+      left: 35%;
+      width: 120px;
+      height: 40px;
+    }
+  }
+  
